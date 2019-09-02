@@ -5,4 +5,4 @@ do
 	awk 'FNR%4' $FILE | awk 'FNR%3' | sed 's/@/>/g' > $(basename $FILE. fastq).fasta
 done
 
-
+# blblblblbl
