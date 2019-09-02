@@ -1,3 +1,4 @@
+# convert all fastq into .fasta
 for FILE in *.fastq
 do
 	# the command between $() is for removing .fastq file extension from filename	
